@@ -1,7 +1,7 @@
 import config from '../config/environment';
 
 export function initialize() {
-  Stripe.setPublishableKey(config['ember-stripe'].key);
+  Stripe(config['stripe'].key);
 }
 
 export default {
