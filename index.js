@@ -6,7 +6,7 @@ module.exports = {
 
   contentFor: function(type) {
     if (type === 'body') {
-      return '<script type="text/javascript" src="https://js.stripe.com/v2/"></script>';
+      return '<script type="text/javascript" src="https://js.stripe.com/v3/"></script>';
     }
   },
 };
